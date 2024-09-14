@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 import '../../utils/category_list.dart';
 import '../../widget/circular_icon_button.dart';
 
@@ -27,7 +28,7 @@ class _CategoryListScreenState extends State<CategoryListScreen> {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            CircularIconButton(onPressed: () {}),
+            CircularIconButton(onPressed: () {Get.back();}),
             const SizedBox(height: 20),
             Text(
               'Shop By Categories',
