@@ -3,9 +3,8 @@ import 'package:clot_store/presentation/ui/screens/order_page_screen.dart';
 import 'package:clot_store/presentation/ui/screens/setting_page_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-
 import '../../state_holders/bottom_navbar_controller.dart';
-import 'home_page_screen.dart';
+import 'home/home_page_screen.dart';
 
 class BottomNavbarScreen extends StatefulWidget {
   const BottomNavbarScreen({super.key});

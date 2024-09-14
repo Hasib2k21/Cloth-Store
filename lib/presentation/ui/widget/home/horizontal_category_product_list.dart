@@ -1,7 +1,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-
+import '../../utils/category_list.dart';
 import '../category_card.dart';
+// Update this path
 
 class HorizontalCategoryProductList extends StatelessWidget {
   const HorizontalCategoryProductList({
@@ -12,9 +13,13 @@ class HorizontalCategoryProductList extends StatelessWidget {
   Widget build(BuildContext context) {
     return ListView.separated(
       scrollDirection: Axis.horizontal,
-      itemCount: 10,
+      itemCount: categories.length,
       itemBuilder: (context, index) {
-        return const CategoryCard();
+        final category = categories[index];
+        return CategoryCard(
+          imageUrl: category.imageUrl,
+          label: category.label,
+        );
       },
       separatorBuilder: (_, __) => const SizedBox(width: 8),
     );
