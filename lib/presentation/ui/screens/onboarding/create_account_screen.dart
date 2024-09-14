@@ -3,7 +3,7 @@ import 'package:clot_store/presentation/ui/screens/onboarding/user_onfo_screen.d
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import '../../widget/circular_icon_button.dart';
-import '../../widget/custom_rich_text.dart';
+import '../../widget/onboarding/custom_rich_text.dart';
 import 'forgot_password_screen.dart';
 
 class CreateAccountScreen extends StatefulWidget {

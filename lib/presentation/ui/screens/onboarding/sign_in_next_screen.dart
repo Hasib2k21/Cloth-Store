@@ -2,7 +2,7 @@ import 'package:clot_store/presentation/ui/screens/onboarding/create_account_scr
 import 'package:clot_store/presentation/ui/screens/onboarding/forgot_password_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import '../../widget/custom_rich_text.dart';
+import '../../widget/onboarding/custom_rich_text.dart';
 
 class SignInNextScreen extends StatefulWidget {
   const SignInNextScreen({super.key});

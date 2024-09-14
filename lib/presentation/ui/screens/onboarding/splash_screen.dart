@@ -3,7 +3,7 @@ import 'package:clot_store/presentation/ui/screens/onboarding/sign_in_screen.dar
 import 'package:clot_store/presentation/ui/utils/app_colors.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import '../../widget/app_logo.dart';
+import '../../widget/onboarding/app_logo.dart';
 
 
 class SplashScreen extends StatefulWidget {
