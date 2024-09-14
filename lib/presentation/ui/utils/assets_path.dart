@@ -5,4 +5,5 @@ class AssetsPath{
   static const String googleIcon= '$_images/google.svg';
   static const String fbIcon= '$_images/fb.svg';
   static const String msgIcon= '$_images/msg.svg';
+  static const String shoeImage= '$_images/shoe.svg';
 }

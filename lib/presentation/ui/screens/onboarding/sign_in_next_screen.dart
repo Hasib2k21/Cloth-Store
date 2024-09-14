@@ -3,6 +3,7 @@ import 'package:clot_store/presentation/ui/screens/onboarding/forgot_password_sc
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import '../../widget/onboarding/custom_rich_text.dart';
+import '../bottom_navbar_screen.dart';
 
 class SignInNextScreen extends StatefulWidget {
   const SignInNextScreen({super.key});
@@ -32,7 +33,7 @@ class _SignInNextScreenState extends State<SignInNextScreen> {
               const SizedBox(height: 14),
               ElevatedButton(
                   onPressed: () {
-                    Get.to(() => const CreateAccountScreen());
+                    Get.to(() => const BottomNavbarScreen());
                   },
                   child: const Text('Continue')),
               const SizedBox(height: 14),
