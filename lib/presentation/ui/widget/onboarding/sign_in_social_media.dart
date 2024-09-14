@@ -1,6 +1,5 @@
 import 'package:flutter/cupertino.dart';
-import 'package:flutter_svg/flutter_svg.dart'; // Correct import for SvgPicture
-
+import 'package:flutter_svg/flutter_svg.dart';
 
 class SignInSocialMedia extends StatelessWidget {
   final String imageUrl;
@@ -39,7 +38,7 @@ class SignInSocialMedia extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.center,
         children: [
           SvgPicture.asset(
-            imageUrl, // This will load the SVG from the correct path
+            imageUrl,
             width: 24,
             height: 24,
             fit: BoxFit.contain,

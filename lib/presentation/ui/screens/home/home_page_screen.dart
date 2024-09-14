@@ -1,7 +1,6 @@
 import 'package:clot_store/presentation/ui/screens/home/category_list_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:get/get_core/src/get_main.dart';
 import '../../widget/home/home_appbar.dart';
 import '../../widget/home/horizontal_category_product_list.dart';
 import '../../widget/home/horizontal_product_list_view.dart';

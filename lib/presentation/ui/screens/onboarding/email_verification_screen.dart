@@ -40,12 +40,11 @@ class _EmailVerificationScreenState extends State<EmailVerificationScreen> {
                 width: 180, // Set your desired width here
                 child: ElevatedButton(
                   onPressed: () {
-                    Get.to(()=>const SignInScreen());
+                    Get.to(() => const SignInScreen());
                   },
                   child: const Text('Return to Login'),
                 ),
               )
-
             ],
           ),
         ),

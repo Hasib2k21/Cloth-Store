@@ -8,11 +8,11 @@ class CustomRichText extends StatelessWidget {
   final VoidCallback onTap;
 
   const CustomRichText({
-    Key? key,
+    super.key,
     required this.mainText,
     required this.clickableText,
     required this.onTap,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {

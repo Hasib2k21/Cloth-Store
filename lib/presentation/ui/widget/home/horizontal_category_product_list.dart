@@ -2,7 +2,6 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import '../../utils/category_list.dart';
 import '../category_card.dart';
-// Update this path
 
 class HorizontalCategoryProductList extends StatelessWidget {
   const HorizontalCategoryProductList({

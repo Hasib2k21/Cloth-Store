@@ -1,6 +1,4 @@
-
 import 'package:flutter/cupertino.dart';
-
 import '../product_card.dart';
 
 class HorizontalProductListView extends StatelessWidget {

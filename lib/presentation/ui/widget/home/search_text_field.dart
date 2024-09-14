@@ -4,7 +4,8 @@ class SearchTextField extends StatelessWidget {
   final TextEditingController textEditingController;
 
   const SearchTextField({
-    super.key, required this.textEditingController,
+    super.key,
+    required this.textEditingController,
   });
 
   @override
@@ -19,15 +20,15 @@ class SearchTextField extends StatelessWidget {
         prefixIcon: const Icon(Icons.search),
         border: OutlineInputBorder(
           borderRadius: BorderRadius.circular(25),
-          borderSide: BorderSide.none, // Ensure that the border side is none
+          borderSide: BorderSide.none,
         ),
         focusedBorder: OutlineInputBorder(
           borderRadius: BorderRadius.circular(25),
-          borderSide: BorderSide.none, // Ensure that the border side is none
+          borderSide: BorderSide.none,
         ),
         enabledBorder: OutlineInputBorder(
           borderRadius: BorderRadius.circular(25),
-          borderSide: BorderSide.none, // Ensure that the border side is none
+          borderSide: BorderSide.none,
         ),
       ),
     );

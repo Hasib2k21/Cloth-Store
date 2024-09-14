@@ -1,7 +1,5 @@
-
 import 'package:flutter/cupertino.dart';
 import 'package:flutter_svg/svg.dart';
-
 import '../../utils/assets_path.dart';
 
 class AppLogo extends StatelessWidget {

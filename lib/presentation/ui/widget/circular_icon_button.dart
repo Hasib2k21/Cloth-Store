@@ -10,9 +10,9 @@ class CircularIconButton extends StatelessWidget {
     return Container(
       decoration: const BoxDecoration(
         shape: BoxShape.circle,
-        color: Color(0xFFF4F4F4), // Light grey background color
+        color: Color(0xFFF4F4F4),
       ),
-      width: 50, // You can adjust the size
+      width: 50,
       height: 50,
       child: IconButton(
         icon: const Icon(Icons.arrow_back, size: 24, color: Colors.black),

@@ -1,6 +1,5 @@
 import 'package:clot_store/presentation/ui/widget/home/select_gender_category.dart';
 import 'package:flutter/material.dart';
-
 import '../../utils/app_colors.dart';
 
 class HomeAppber extends StatelessWidget {

@@ -4,7 +4,6 @@ import 'package:clot_store/presentation/ui/utils/assets_path.dart';
 import 'package:clot_store/presentation/ui/widget/onboarding/custom_rich_text.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-
 import '../../widget/onboarding/sign_in_social_media.dart';
 
 class SignInScreen extends StatefulWidget {

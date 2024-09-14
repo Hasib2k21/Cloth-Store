@@ -2,6 +2,7 @@ import 'package:clot_store/presentation/ui/screens/onboarding/sign_in_screen.dar
 import 'package:clot_store/presentation/ui/screens/onboarding/user_onfo_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+
 import '../../widget/circular_icon_button.dart';
 import '../../widget/onboarding/custom_rich_text.dart';
 import 'forgot_password_screen.dart';
@@ -25,7 +26,7 @@ class _CreateAccountScreenState extends State<CreateAccountScreen> {
             children: [
               CircularIconButton(
                 onPressed: () {
-                  Get.offAll(()=>const SignInScreen());
+                  Get.offAll(() => const SignInScreen());
                 },
               ),
               const SizedBox(
@@ -52,9 +53,11 @@ class _CreateAccountScreenState extends State<CreateAccountScreen> {
                 decoration: const InputDecoration(hintText: "Password"),
               ),
               const SizedBox(height: 25),
-              ElevatedButton(onPressed: () {
-                Get.to(()=>const UserInfoScreen());
-              }, child: const Text('Continue')),
+              ElevatedButton(
+                  onPressed: () {
+                    Get.to(() => const UserInfoScreen());
+                  },
+                  child: const Text('Continue')),
               const SizedBox(height: 25),
               Column(
                 children: [

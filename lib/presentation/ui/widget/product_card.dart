@@ -32,7 +32,8 @@ class ProductCard extends StatelessWidget {
                   height: 24,
                   padding: const EdgeInsets.all(4),
                   decoration: const BoxDecoration(
-                    color: Colors.white, // Add a background color for better visibility
+                    color: Colors.white,
+                    // Add a background color for better visibility
                     shape: BoxShape.circle, // Make it circular
                   ),
                   child: const Icon(
@@ -44,7 +45,7 @@ class ProductCard extends StatelessWidget {
             ],
           ),
           const SizedBox(height: 4),
-           Padding(
+          Padding(
             padding: const EdgeInsets.symmetric(horizontal: 4),
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,

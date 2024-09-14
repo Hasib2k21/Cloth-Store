@@ -1,7 +1,7 @@
-import 'package:clot_store/presentation/ui/screens/onboarding/create_account_screen.dart';
 import 'package:clot_store/presentation/ui/screens/onboarding/forgot_password_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+
 import '../../widget/onboarding/custom_rich_text.dart';
 import '../bottom_navbar_screen.dart';
 
@@ -33,18 +33,19 @@ class _SignInNextScreenState extends State<SignInNextScreen> {
               const SizedBox(height: 14),
               ElevatedButton(
                   onPressed: () {
-                    Get.to(() => const BottomNavbarScreen());
+                    Get.offAll(() => const BottomNavbarScreen());
                   },
                   child: const Text('Continue')),
               const SizedBox(height: 14),
               Column(
                 children: [
                   CustomRichText(
-                      mainText: 'Forgot Password?',
-                      clickableText: ' Reset',
-                      onTap: () {
-                        Get.offAll(() => const ForgotPasswordScreen());
-                      })
+                    mainText: 'Forgot Password?',
+                    clickableText: ' Reset',
+                    onTap: () {
+                      Get.offAll(() => const ForgotPasswordScreen());
+                    },
+                  )
                 ],
               ),
             ],

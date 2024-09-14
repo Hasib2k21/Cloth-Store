@@ -8,7 +8,7 @@ class SelectGenderCategory extends StatefulWidget {
 }
 
 class _SelectGenderCategoryState extends State<SelectGenderCategory> {
-  String _selectedCategory = 'Men'; // Default selected value
+  String _selectedCategory = 'Men';
   final List<String> _categories = ['Men', 'Women', 'Children'];
 
   @override

@@ -1,6 +1,4 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import '../utils/app_colors.dart';
 
 class CategoryCard extends StatelessWidget {
   final String imageUrl;
@@ -15,9 +13,7 @@ class CategoryCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return GestureDetector(
-      onTap: () {
-        // Define your onTap functionality here
-      },
+      onTap: () {},
       child: Column(
         children: [
           Container(
@@ -26,7 +22,8 @@ class CategoryCard extends StatelessWidget {
             decoration: ShapeDecoration(
               image: DecorationImage(
                 image: NetworkImage(
-                  imageUrl,),
+                  imageUrl,
+                ),
                 fit: BoxFit.fill,
               ),
               shape: const OvalBorder(),
