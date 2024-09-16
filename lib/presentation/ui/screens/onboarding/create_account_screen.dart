@@ -24,7 +24,7 @@ class _CreateAccountScreenState extends State<CreateAccountScreen> {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              CircularIconButton(
+              CircularIconButtonFav(
                 onPressed: () {
                   Get.offAll(() => const SignInScreen());
                 },

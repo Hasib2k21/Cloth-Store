@@ -1,4 +1,4 @@
-import 'package:clot_store/presentation/ui/screens/notification_page_screen.dart';
+import 'package:clot_store/presentation/ui/screens/notification/notification_page_screen.dart';
 import 'package:clot_store/presentation/ui/screens/order_page_screen.dart';
 import 'package:clot_store/presentation/ui/screens/setting_page_screen.dart';
 import 'package:flutter/material.dart';

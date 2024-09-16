@@ -21,7 +21,7 @@ class _ForgotPasswordScreenState extends State<ForgotPasswordScreen> {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              CircularIconButton(onPressed: () {
+              CircularIconButtonFav(onPressed: () {
                 Get.offAll(() => const SignInScreen());
               }),
               const SizedBox(

@@ -54,6 +54,7 @@ class ClothStoreApp extends StatelessWidget {
               foregroundColor: AppColors.themeColor,
               textStyle: const TextStyle(fontSize: 16)),
         ),
+
         appBarTheme: const AppBarTheme(
           backgroundColor: Colors.white,
           titleTextStyle: TextStyle(

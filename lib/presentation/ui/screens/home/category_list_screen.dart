@@ -12,9 +12,7 @@ class CategoryListScreen extends StatefulWidget {
 
 class _CategoryListScreenState extends State<CategoryListScreen> {
   void _onCategoryTap(String label) {
-    // Handle the category tap event
-    // For example, navigate to a different screen or show a dialog
-    // You can use label or other properties as needed
+
     ScaffoldMessenger.of(context).showSnackBar(
       SnackBar(content: Text('Tapped on $label')),
     );
@@ -28,7 +26,7 @@ class _CategoryListScreenState extends State<CategoryListScreen> {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            CircularIconButton(onPressed: () {Get.back();}),
+            CircularIconButtonFav(onPressed: () {Get.back();}),
             const SizedBox(height: 20),
             Text(
               'Shop By Categories',
