@@ -1,3 +1,4 @@
+import 'package:clot_store/presentation/ui/screens/cart/cart_screen.dart';
 import 'package:clot_store/presentation/ui/screens/notification/notification_page_screen.dart';
 import 'package:clot_store/presentation/ui/screens/order_page_screen.dart';
 import 'package:clot_store/presentation/ui/screens/setting_page_screen.dart';
@@ -21,7 +22,9 @@ class _BottomNavbarScreenState extends State<BottomNavbarScreen> {
     const HomePageScreen(),
     const NotificationPageScreen(),
     const OrderPageScreen(),
+    const CartScreen(),
     const SettingPageScreen(),
+
   ];
 
   @override
@@ -38,12 +41,14 @@ class _BottomNavbarScreenState extends State<BottomNavbarScreen> {
             onDestinationSelected: _navbarController.changeIndex,
             labelBehavior: NavigationDestinationLabelBehavior.alwaysHide,
             // Hide the labels
-            destinations: const [
+            destinations:  const [
               NavigationDestination(icon: Icon(Icons.home), label: ''),
               NavigationDestination(
                   icon: Icon(Icons.notifications_outlined), label: ''),
               NavigationDestination(
                   icon: Icon(Icons.shopping_cart_checkout), label: ''),
+              NavigationDestination(
+                  icon: Icon(Icons.card_travel), label: ''),
               NavigationDestination(
                   icon: Icon(Icons.person_outline), label: ''),
             ],
