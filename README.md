@@ -2,15 +2,15 @@
 
 A new Flutter project.
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<br />
+<img align="center" alt ="homePage" width ="900" src="https://github.com/Hasib2k21/Cloth-Store/blob/master/assets/images/clot1.png"></img>
+<br />
+<br />
+<img align="center" alt ="homePage" width ="900" src="https://github.com/Hasib2k21/Cloth-Store/blob/master/assets/images/clot2.png"></img>
+<br />
+<br />
+<img align="center" alt ="homePage" width ="900" src="https://github.com/Hasib2k21/Cloth-Store/blob/master/assets/images/clot3.png"></img>
+<br />
+<br />
+<img align="center" alt ="homePage" width ="900" src="https://github.com/Hasib2k21/Cloth-Store/blob/master/assets/images/clot4.png"></img>
+<br />
