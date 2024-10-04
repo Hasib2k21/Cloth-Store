@@ -16,8 +16,7 @@ class HorizontalCategoryProductList extends StatelessWidget {
       itemBuilder: (context, index) {
         final category = categories[index];
         return CategoryCard(
-          imageUrl: category.imageUrl,
-          label: category.label,
+          category: category, // Passing the CategoryItem directly
         );
       },
       separatorBuilder: (_, __) => const SizedBox(width: 8),
